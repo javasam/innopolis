@@ -26,5 +26,3 @@ cache:
 script:
 - ./gradlew assemble
 - ./gradlew check --rerun-tasks
-- ./gradlew sonarqube -Dsonar.projectKey=innopolis -Dsonar.organization=innopolis -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=16b674d62697804d165f3b1bad5a7eb0e0fb24ba
-- rm -rf .scannerwork
